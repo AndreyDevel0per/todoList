@@ -90,3 +90,29 @@ h6 {
 /*-----------------------------------------------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
+    max-width: 50%;
+    margin: auto;
+}
+
+header h1 {
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+    font-size: large;
+    font-family: ;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.todo {
+    display: flex;
+}
