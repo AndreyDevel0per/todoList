@@ -91,6 +91,11 @@ h6 {
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body {
+    background-image: linear-gradient(90deg, #f6d365, #fda085);
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     max-width: 50%;
     margin: auto;
@@ -98,9 +103,8 @@ h6 {
 
 header h1 {
     text-align: center;
-    margin: 20px 0px 50px 0px;
-    font-size: large;
-    font-family: ;
+    margin: 30px 0px 70px 0px;
+    font-size: 50px;
 }
 
 form {
@@ -115,4 +119,24 @@ form {
 
 .todo {
     display: flex;
+}
+
+form input {
+    min-width: 70%;
+    min-height: 40px;
+    padding-left: 10px;
+    font-size: medium;
+}
+
+.todo-button {
+    min-width: 40px;
+    position: relative;
+    background-color: #fda085;
+}
+
+.fa-plus-square {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 23px;
 }
