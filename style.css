@@ -97,94 +97,49 @@ body {
 }
 
 .container {
-    max-width: 50%;
-    margin: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
-header h1 {
+.header {
     text-align: center;
-    margin: 30px 0px 70px 0px;
     font-size: 50px;
 }
 
-form,
-.todo {
-    display: flex;
-    justify-content: center;
-}
-
+.form-container,
 .todo-container {
+    margin: 0 auto;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
-}
-
-/*form input {
-    min-width: 70%;
-    min-height: 40px;
-    font-size: medium;
-}*/
-
-form {
-    min-width: 70%;
-    min-height: 40px;
-    font-size: medium;
-}
-
-.form-container {
-    min-width: 70%;
-    display: flex;
-    justify-content: center;
-}
-
-.todo-button {
-    min-width: 40px;
-    position: relative;
-    background-color: #fda085;
-    color: white;
-    transition: all 0.5s ease;
-}
-
-.todo-input {
-    min-width: 100%;
-    padding-left: 10px;
-}
-
-.todo-button:hover {
-    color: #fda085;
-    background-color: white;
-}
-
-.fa-plus-square {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 23px;
-}
-
-.todo {
-    margin-top: 30px;
-    max-width: 100%;
+    max-width: 60%;
 }
 
 .todo-list {
-    min-width: 70%;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.todo-input,
+.todo-item {
+    flex-grow: 1;
+    height: 28px;
+    padding-left: 6px;
+}
+
+.todo-button,
+.completed-btn,
+.trash-btn {
+    width: 28px;
+}
+
+.todo {
+    display: flex;
+    margin-top: 24px;
 }
 
 .todo-item {
-    min-width: 100%;
-    min-height: 40px;
-    background-color: black;
-    margin-left: 40px;
-}
-
-.completed-btn,
-.trash-btn {
-    align-self: flex-end;
-    min-width: 40px;
-    min-height: 40px;
-}
-
-.trash-btn {
-    align-self: flex-end;
-    background-color: #fda085;
+    background-color: white;
+    padding-top: 8px;
 }
