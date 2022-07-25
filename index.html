@@ -17,18 +17,23 @@
         <header>
             <h1 class="header">Todo list</h1>
         </header>
-        <form>
+        <form class="form">
             <div class="form-container">
                 <input type="text" class="todo-input">
                 <button class="todo-button" type="submit">
                     <i class="fas fa-plus-square"></i>
                 </button>
             </div>
+            <div class="select">
+                <select name="todos" class="filter-todo">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
+            </div>
         </form>
         <div class="todo-container">
-            <ul class="todo-list">
-
-            </ul>
+            <ul class="todo-list"></ul>
         </div>
     </div>
     <script src="script.js"></script>
